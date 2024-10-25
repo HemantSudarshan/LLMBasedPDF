@@ -37,24 +37,6 @@ def displayPDF(file):
         st.markdown(pdf_display, unsafe_allow_html=True)
     except Exception as e:
         st.error(f"An error occurred while displaying the PDF: {str(e)}")
-import streamlit as st
-import streamlit.components.v1 as components
-
-# Google Analytics Tracking Code
-GA_JS = """
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9663NCZLHD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9663NCZLHD');
-</script>
-"""
-
-# Embed the Google Analytics script in the app
-components.html(GA_JS)
 
 # Main function
 def main():
@@ -163,3 +145,19 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Google Analytics Tracking Code
+GA_JS = """
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9663NCZLHD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9663NCZLHD');
+</script>
+"""
+
+# Embed the Google Analytics script in the app
+components.html(GA_JS)
