@@ -145,3 +145,12 @@ def main():
 
 if __name__ == "__main__":
     main()
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9663NCZLHD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9663NCZLHD');
+</script>
