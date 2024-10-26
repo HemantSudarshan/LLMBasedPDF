@@ -86,7 +86,7 @@ def main():
     col1.image("https://www.shutterstock.com/image-vector/chatbot-icon-concept-chat-bot-600nw-2132342911.jpg", width=150)
 
     # Title with white color on a black background
-    col2.title("LEXI GENIUS || AN OFFLINE LLM BRILLANCE")
+    col2.title("LEXI GENIUS || AN LLM BRILLANCE")
 
     # Image on the left, text on the right
     col1.image("https://pdf-summarizer.com/images/PDF%20Summarizer%20(3).png", use_column_width=True)
