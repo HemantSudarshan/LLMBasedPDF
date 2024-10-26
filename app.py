@@ -42,7 +42,7 @@ def displayPDF(file):
 def main():
     # Set background color and page layout
     st.set_page_config(
-        page_title="LEXI GENIUS || AN OFFLINE LLM BRILLANCE",
+        page_title="LEXI GENIUS || AN LLM BRILLANCE",
         page_icon="📚",
         layout="wide",
         initial_sidebar_state="expanded",
